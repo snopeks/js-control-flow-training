@@ -7,6 +7,7 @@ function bottlesOfBeer(){
     var messageA = ` ${i} ${bottles} of beer on the wall,
     ${i} ${bottles} of beer! Take one down and pass it around,`
     console.log(messageA)
+
     if(i === 2){
       bottles = "bottle"
     }
